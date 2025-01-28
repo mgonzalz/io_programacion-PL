@@ -33,6 +33,36 @@ Proyecto-Optimizacion
 
 ## Instalación de Dependencias - Creación de entorno.
 
+Este proyecto requiere la creación de un entorno virtual de Python para instalar las dependencias necesarias. A continuación, se detallan dos formas de hacerlo: usando el Makefile o manualmente.
+
+Es importante asegurarse de tener instalado el solver **GLPK** en el sistema, ya que es necesario para la resolución de los modelos de optimización. Puedes descargar e instalar GLPK desde el sitio web oficial: [GLPK - GNU Linear Programming Kit](https://www.gnu.org/software/glpk/). Una vez instalado, asegúrese de que su ubicación esté incluida en las variables de entorno del sistema para que Pyomo pueda acceder a él correctamente.
+
+### Makefile.
+
+Para simplificar la creación del entorno virtual y la instalación de dependencias, se incluye un archivo Makefile. Este método requiere que tengas [**GNU Make**](https://sourceforge.net/projects/mingw/) instalado en tu sistema. Para ejecutar los comandos correspondientes, se recomienda el uso de la consola **Git Bash**.
+
+**Comandos disponibles.**
+
+- Creación del entorno virtual e instalación de dependencias.
+
+```bash
+make install
+```
+
+- Eliminación del entorno virtual.
+
+```bash
+make clean
+```
+
+- Eliminar y recrear el entorno virtual:
+
+```bash
+make reset
+```
+
+### Método Manual.
+
 Para ejecutar el proyecto en Windows, se recomienda crear un entorno virtual e instalar las dependencias utilizando `pip`. Sigue los siguientes pasos:
 
 ```bash
@@ -40,8 +70,6 @@ python -m venv env
 env\Scripts\activate
 pip install -r requirements.txt
 ```
-
-Es importante asegurarse de tener instalado el solver **GLPK** en el sistema, ya que es necesario para la resolución de los modelos de optimización. Puedes descargar e instalar GLPK desde el sitio web oficial: [GLPK - GNU Linear Programming Kit](https://www.gnu.org/software/glpk/). Una vez instalado, asegúrese de que su ubicación esté incluida en las variables de entorno del sistema para que Pyomo pueda acceder a él correctamente.
 
 ## Repositorio del Proyecto.
 
