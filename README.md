@@ -1,4 +1,5 @@
 # Investigación Operativa: Proyecto de Optimización de Inversiones Bancarias.
+
 Este proyecto tiene como objetivo resolver diferentes problemas de optimización financiera utilizando programación lineal y entera. Se han abordado diversas estrategias para maximizar el rendimiento de la inversión del banco bajo ciertas restricciones, como el presupuesto total y la liquidez mínima requerida. Se han desarrollado los siguientes problemas:
 
 1. **Problema de Programación Lineal: Resolución Gráfica.** Un modelo que optimiza la inversión del banco entre préstamos a corto plazo y reservas en efectivo, utilizando un enfoque gráfico para encontrar la solución óptima.
@@ -31,6 +32,7 @@ Proyecto-Optimizacion
 - El archivo `.gitignore` se utiliza para excluir archivos y carpetas innecesarias del control de versiones. Este archivo garantiza que solo los archivos esenciales del proyecto sean rastreados en el repositorio, mejorando la organización y evitando subir elementos innecesarios.
 
 ## Instalación de Dependencias - Creación de entorno.
+
 Para ejecutar el proyecto en Windows, se recomienda crear un entorno virtual e instalar las dependencias utilizando `pip`. Sigue los siguientes pasos:
 
 ```bash
